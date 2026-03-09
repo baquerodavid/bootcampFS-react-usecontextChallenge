@@ -73,9 +73,6 @@ button:focus-visible {
   }
 }
 .App {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 100vw;
   height: 100vh;
 }
@@ -93,3 +90,7 @@ button:focus-visible {
   width: 300px;
 }
 
+.page {
+  max-width: 980px;
+  margin: auto;
+}
