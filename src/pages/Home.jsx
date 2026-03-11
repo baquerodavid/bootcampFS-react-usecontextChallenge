@@ -43,3 +43,12 @@ function Home() {
 }
 
 export default Home;
+
+
+// 👇 CODIGO DE LA LIVE REVIEW EMPIEZA DESDE AQUÍ 👇
+/* 
+import Template from "../components/Template";
+
+const Home = () => <Template title="Soy la Home" img="https://eldata.es/img/runwaydata.png"/>
+export default Home
+ */

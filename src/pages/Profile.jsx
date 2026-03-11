@@ -42,3 +42,12 @@ function Profile() {
 }
 
 export default Profile;
+
+
+// 👇 CODIGO DE LA LIVE REVIEW EMPIEZA DESDE AQUÍ 👇
+/* 
+import Template from "../components/Template";
+
+const Profile = () => <Template title="Soy Profile" img="https://eldata.es/img/eldatarude.png"/>
+export default Profile
+ */

@@ -1,6 +1,6 @@
 import { createContext, useContext, useState } from "react";
 
-const ThemeContext = createContext();
+const ThemeContext = createContext(null);
 
 export const ThemeProvider = ({ children }) => {
   const [theme, setTheme] = useState('dark');
@@ -18,3 +18,23 @@ export const ThemeProvider = ({ children }) => {
 }
 
 export const useTheme = () => useContext(ThemeContext);
+
+
+// 👇 CODIGO DE LA LIVE REVIEW EMPIEZA DESDE AQUÍ 👇
+/* 
+import { createContext, useState } from 'react';
+
+export const ThemeContext = createContext(null);
+
+export const ThemeProvider = ({ children }) => {
+  const [theme, setTheme] = useState('light');
+  const toggleTheme = () =>
+    theme === 'light' ? setTheme('dark') : setTheme('light');
+
+  return (
+    <ThemeContext.Provider value={{ theme, toggleTheme }}>
+      {children}
+    </ThemeContext.Provider>
+  );
+};
+ */

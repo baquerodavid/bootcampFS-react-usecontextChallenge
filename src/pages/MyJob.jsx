@@ -42,3 +42,12 @@ function MyJob() {
 }
 
 export default MyJob;
+
+
+// 👇 CODIGO DE LA LIVE REVIEW EMPIEZA DESDE AQUÍ 👇
+/* 
+import Template from "../components/Template";
+
+const MyJob = () => <Template title="Soy MyJob" img="https://eldata.es/codedigest/condicionales-mejorados.png"/>
+export default MyJob
+ */
